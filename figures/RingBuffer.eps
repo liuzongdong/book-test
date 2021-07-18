@@ -1,0 +1,267 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: RingBuffer.dia
+%%Creator: Dia v0.90
+%%CreationDate: Sun Jul 25 11:04:29 2004
+%%For: Administrator
+%%Magnification: 1.0000
+%%Orientation: Portrait
+%%BoundingBox: 0 0 683 278
+%%Pages: 1
+%%EndComments
+%%BeginProlog
+[ /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright
+/parenleft /parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E
+/F /G /H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum /underscore /quoteleft /a /b /c
+/d /e /f /g /h /i /j /k /l /m
+/n /o /p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /periodcentered /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn /ydieresis] /isolatin1encoding exch def
+/cp {closepath} bind def
+/c {curveto} bind def
+/f {fill} bind def
+/a {arc} bind def
+/ef {eofill} bind def
+/ex {exch} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth pop} bind def
+/tr {translate} bind def
+
+/ellipsedict 8 dict def
+ellipsedict /mtrx matrix put
+/ellipse
+{ ellipsedict begin
+   /endangle exch def
+   /startangle exch def
+   /yrad exch def
+   /xrad exch def
+   /y exch def
+   /x exch def   /savematrix mtrx currentmatrix def
+   x y tr xrad yrad sc
+   0 0 1 startangle endangle arc
+   savematrix setmatrix
+   end
+} def
+
+/mergeprocs {
+dup length
+3 -1 roll
+dup
+length
+dup
+5 1 roll
+3 -1 roll
+add
+array cvx
+dup
+3 -1 roll
+0 exch
+putinterval
+dup
+4 2 roll
+putinterval
+} bind def
+/Bookman-Demi-latin1
+    /Bookman-Demi findfont
+    dup length dict begin
+	{1 index /FID ne {def} {pop pop} ifelse} forall
+	/Encoding isolatin1encoding def
+    currentdict end
+definefont pop
+%%EndProlog
+
+%%BeginSetup
+%%EndSetup
+28.346000 -28.346000 scale
+-5.000000 -11.900000 translate
+
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slj
+0 slc
+1.000000 1.000000 1.000000 srgb
+n 5.100000 6.050000 m 28.900000 6.050000 l 28.600000 6.600000 l 29.000000 7.000000 l 28.600000 7.500000 l 28.950000 8.050000 l 5.050000 8.000000 l 5.050000 7.100000 l f
+0.000000 0.000000 0.000000 srgb
+n 5.100000 6.050000 m 28.900000 6.050000 l 28.600000 6.600000 l 29.000000 7.000000 l 28.600000 7.500000 l 28.950000 8.050000 l 5.050000 8.000000 l 5.050000 7.100000 l cp s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 7.050000 6.050000 m 7.100000 8.100000 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 9.001204 6.001204 m 9.051204 8.051204 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 11.051204 6.051204 m 11.101204 8.101204 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 13.001204 6.051204 m 13.051204 8.101204 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 15.001204 6.051204 m 15.051204 8.101204 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 17.000000 6.050000 m 17.000000 8.025000 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 19.051204 6.051204 m 19.101204 8.101204 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 21.051204 6.051204 m 21.101204 8.101204 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 23.051204 6.001204 m 23.101204 8.051204 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 25.001204 6.101204 m 25.051204 8.151204 l s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 27.001204 6.051204 m 27.051204 8.101204 l s
+/Bookman-Demi-latin1 ff 1.000000 scf sf
+(Read ) 13.150000 10.600000 m gs 1 -1 sc sh gr
+(Position) 13.150000 11.600000 m gs 1 -1 sc sh gr
+/Bookman-Demi-latin1 ff 1.000000 scf sf
+(Write) 20.950000 10.550000 m gs 1 -1 sc sh gr
+(Position) 20.950000 11.550000 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 14.000000 9.500000 m 14.000000 7.350000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 14.200000 7.750000 m 14.000000 7.350000 l 13.800000 7.750000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 14.200000 7.750000 m 14.000000 7.350000 l 13.800000 7.750000 l cp s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 22.050000 9.450000 m 22.050000 7.300000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 22.250000 7.700000 m 22.050000 7.300000 l 21.850000 7.700000 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 22.250000 7.700000 m 22.050000 7.300000 l 21.850000 7.700000 l cp s
+/Bookman-Demi-latin1 ff 1.000000 scf sf
+(Free Slots) 6.850000 3.100000 m gs 1 -1 sc sh gr
+/Bookman-Demi-latin1 ff 1.000000 scf sf
+(Free Slots) 23.750000 2.950000 m gs 1 -1 sc sh gr
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 8.950000 3.950000 m 11.950000 6.550000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 11.516738 6.439166 m 11.950000 6.550000 l 11.778710 6.136890 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 11.516738 6.439166 m 11.950000 6.550000 l 11.778710 6.136890 l cp s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 8.900000 4.000000 m 5.950000 6.550000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 6.121823 6.137112 m 5.950000 6.550000 l 6.383405 6.439725 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 6.121823 6.137112 m 5.950000 6.550000 l 6.383405 6.439725 l cp s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 25.999408 4.070531 m 28.100000 7.050000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 27.706055 6.838323 m 28.100000 7.050000 l 28.032974 6.607838 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 27.706055 6.838323 m 28.100000 7.050000 l 28.032974 6.607838 l cp s
+0.100000 slw
+[] 0 sd
+[] 0 sd
+0 slc
+n 25.999408 4.170531 m 23.950000 7.100000 l s
+0 slj
+1.000000 1.000000 1.000000 srgb
+n 24.015415 6.657596 m 23.950000 7.100000 l 24.343172 6.886890 l f
+0.100000 slw
+[] 0 sd
+0 slj
+0.000000 0.000000 0.000000 srgb
+n 24.015415 6.657596 m 23.950000 7.100000 l 24.343172 6.886890 l cp s
+showpage
